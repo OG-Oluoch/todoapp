@@ -29,7 +29,7 @@ public class TodoService {
     }
 
     public void deleteTask(Long id) {
-        taskRepository.deleteById(id);
+        taskRepository.deleteById(id) ;
     }
 
     public void toggleTask(Long id) {
