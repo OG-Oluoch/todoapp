@@ -37,5 +37,6 @@ public class TodoService {
                 .orElseThrow(()->new IllegalArgumentException("invalid task id"));
                 task.setCompleted(!task.isCompleted());
                 taskRepository.save(task);
+
     }
 }
